@@ -1,0 +1,5 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+10.0.2.5 master.spark
+10.0.2.6 slave1.spark
+10.0.2.7 slave1.spark
+
