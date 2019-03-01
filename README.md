@@ -64,14 +64,25 @@ and this files
 
 * Download script to local machine
 
+
+```
+
 git@github.com:zhukovnv84/terraform_azure_count_modules_kubernetes.git
 
+```
 
 
 
  it is run ansible script from 
 
+```
+
 git@github.com:zhukovnv84/ansible_kubernetes_1.13_centos7.git
+
+
+```
+
+
 
 and configure kubernetes cluster
 
@@ -81,6 +92,7 @@ and configure kubernetes cluster
 * Install Terraform (Ubuntu)
 
 
+```
 
 install
 ---
@@ -94,8 +106,13 @@ sudo mv terraform /usr/local/bin/
 terraform --version
 
 
+```
+
+
 
 * Add Azure credentials
+
+```
 
 
 add to terraform.tfvars
@@ -105,6 +122,8 @@ tenant_id = ""
 client_id = ""
 client_secret = ""
 
+```
+
 
 * Configure variables for Azure Virtual Machines
 
@@ -113,6 +132,7 @@ Full variables are here - full_variable_for_examle.tf - it is example
 
 But you  have to change it in
 
+```
 
 modules
        - module_name
@@ -139,6 +159,7 @@ in modules/security_group/main. It is your subnet CIDR, or use your external ip.
 
 
 
+```
 
 
 
